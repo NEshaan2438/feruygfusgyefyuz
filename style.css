@@ -1,0 +1,50 @@
+body {
+    background-image: url("fire.png");
+    background-repeat: no-repeat;
+    background-color: black;
+    background-size: cover;
+    background-size: 100%;
+    text-align: right;
+    padding-top: 100px;
+}
+h1 {
+    text-align: right;
+    margin-right: 150px;
+    margin-top: 25px;
+    color: lightcoral;
+    font-family: 'Square Peg', cursive;
+    font-size: 80px;
+}
+input {
+    height: 60px;
+    width: 500px;
+    text-align: center;
+    border-radius: 75px;
+    border-style: none;
+    font-size: 45px;
+    font-family: 'Square Peg', cursive;
+    margin-left: 850px;
+    background-color: lightcoral;
+    color: black;
+}
+
+button {
+    font-family: 'Square Peg', cursive;
+    font-size: 45px;
+    border-radius: 75px;
+    border-style: none;
+    text-align: center;
+    width: 200px;
+    margin-left: 850px;;
+    height: 60px;
+    background-color: lightcoral;
+    color: black;
+}
+
+#btn1 {
+    font-family: 'Square Peg', cursive;
+}
+
+#btn2 {
+    font-family: 'Square Peg', cursive;
+}
