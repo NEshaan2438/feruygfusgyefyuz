@@ -2,6 +2,9 @@
 <html>
     <head>
         <title>Let's Chat! - Rooms</title>
+        <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
         <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
@@ -19,7 +22,7 @@
             <h1 id="welcome">Hello, !</h1>
             <input id="roomName" type="text" placeholder="Room Name" style="margin-right: 70px;">
             <br> <br> <br> <br>
-            <btn id="btn2" class="btn btn-success" style="margin-right: 220px; font-size: 29px;" style="font-family: Square Peg;">Add Room</btn>
+            <btn id="btn2" class="btn btn-success" style="margin-right: 220px; font-size: 29px;" onclick="addRoom()">Add Room</btn>
             <div id="rooms"></div>
         </div>
     </body>
